@@ -1,0 +1,40 @@
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card, dl {
+        width: 95%;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+}
